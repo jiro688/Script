@@ -19,8 +19,8 @@ BOLD="\033[1m"
 clear
 echo -e "${MAGENTA}"
 echo "╔════════════════════════════════════════════════════╗"
-echo "║         🚀  Galaxy A52s 5G ROM SYNC SCRIPT by anhdat1024     ║"
-echo "║                  (Fast, Clean, Beautiful Clone)          ║"
+echo "║         🚀  Galaxy A52s 5G ROM SYNC SCRIPT by Jiro.         ║"
+echo "║                  (Fast, Clean, Beautiful Clone)             ║"
 echo "╚════════════════════════════════════════════════════╝"
 echo -e "${RESET}"
 sleep 1
@@ -29,15 +29,14 @@ sleep 1
 # 📦  DANH SÁCH REPO
 # ===========================
 repos=(
-  "https://github.com/anhdat1024/android_device_samsung_a52sxq.git device/samsung/a52sxq"
-  "https://github.com/anhdat1024/android_device_samsung_sm7325-common.git device/samsung/sm7325-common"
-  "https://github.com/anhdat1024/android_vendor_samsung_a52sxq.git vendor/samsung/a52sxq"
-  "https://github.com/anhdat1024/android_vendor_samsung_sm7325-common.git vendor/samsung/sm7325-common"
-  "https://github.com/anhdat1024/android_kernel_samsung_sm7325.git kernel/samsung/sm7325"
-  "https://github.com/anhdat1024/android_hardware_dolby.git hardware/dolby"
-  "https://github.com/anhdat1024/hardware_samsung-extra_interfaces.git -b 16.0 hardware/samsung-ext/interfaces"
-  "https://github.com/anhdat1024/android_vendor_bcr.git vendor/bcr"
-)
+  "https://github.com/jiro28/android_device_samsung_a52sxq.git -b 16.0-lunaris device/samsung/a52sxq"
+  "https://github.com/jiro28/android_device_samsung_sm7325-common.git -b 16.0-lunaris device/samsung/sm7325-common"
+  "https://github.com/jiro28/android_vendor_samsung_a52sxq.git vendor/samsung/a52sxq"
+  "https://github.com/jiro28/android_vendor_samsung_sm7325-common.git vendor/samsung/sm7325-common"
+  "https://github.com/jiro28/android_kernel_samsung_sm7325.git kernel/samsung/sm7325"
+  "https://github.com/jiro28/android_hardware_dolby.git hardware/dolby"
+  "https://github.com/jiro28/hardware_samsung-extra_interfaces.git -b 16.0 hardware/samsung-ext/interfaces"
+    )
 
 # ===========================
 # 🔁  CLONE CÁC REPO
